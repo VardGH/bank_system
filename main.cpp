@@ -4,6 +4,6 @@
 
 int main()
 {
-    test_bank();
+    my_test::test_bank();
     return 0;
 }

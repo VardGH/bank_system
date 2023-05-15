@@ -1,6 +1,7 @@
 #include "test.hpp"
 #include "bank_system.hpp"
 #include <iostream>
+namespace my_test {
 
 void test_bank()
 {
@@ -21,4 +22,5 @@ void test_bank()
     bank.withdraw(2, 2, 100.0);
     bank.get_customer_info(2);
     std::cout << "Total balance: " << bank.get_total_balance() << std::endl;
+}
 }
